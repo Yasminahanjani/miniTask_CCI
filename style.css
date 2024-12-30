@@ -297,6 +297,14 @@
     margin-bottom: 2rem;
     opacity: .6;
   }
+
+  .timeline .item-edu h4 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    opacity: .6;
+  }
   
   .timeline .item-edu p{
     font-size: 1rem;

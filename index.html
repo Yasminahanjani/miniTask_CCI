@@ -106,11 +106,13 @@
         </div>
         <br><h4 style="color: tomato;">Lebih tahu tentang struktur HTML.</h4>
         <p class="content">HTML disimpan dengan ekstensi ".html". Jika di dalamnya terdapat skrip PHP, maka ekstensinya adalah ".php". Dalam penulisan HTML, ada beberapa tag yang wajin dituliskan untuk membangun website html yang baik dan terstruktur. Tag tersebut adalah sebagai berikut: <br><br>
-        <span style="color: tomato;">< !DOCTYPE HTML ></span>, dimana ini merupakan tag awal untuk membuat dokumen HTML. Fungsinya adalah untuk memberi tahu browser bahwa dokumen yang sedang dibuka ini adalah dokumen HTML. <br>
-        <span style="color: tomato;">< html >< /html ></span>, adalah tag yang menunjukan tanda untuk membuka dan menutup dokumen html.<br>
-        <span style="color: tomato;">< head >< /head ></span>, tag ini digunakan untuk menyimpan berbagai informasi tentang dokumen HTML. Semua elemen yang ada di tag ini tidak akan ditampilkan ke browser. <br>
-        <span style="color: tomato;">< title >< /title ></span>, adalah tag yang dugunakan untuk membuat judul website yang dimunculkan pada title browser. <br>
-        <span style="color: tomato;">< body >< /body ></span>, merupakan tag yang menunjukkan bagian utama dari website. Semua yang akan ditampilkan pada website dan halaman browser ditulis dan diletakkan di tag ini.<br></p>
+        <ul class="content">
+          <li><span style="color: tomato;">< !DOCTYPE HTML ></span>, dimana ini merupakan tag awal untuk membuat dokumen HTML. Fungsinya adalah untuk memberi tahu browser bahwa dokumen yang sedang dibuka ini adalah dokumen HTML. </li><br>
+          <li><span style="color: tomato;">< html >< /html ></span>, adalah tag yang menunjukan tanda untuk membuka dan menutup dokumen html.</li><br>
+          <li><span style="color: tomato;">< head >< /head ></span>, tag ini digunakan untuk menyimpan berbagai informasi tentang dokumen HTML. Semua elemen yang ada di tag ini tidak akan ditampilkan ke browser. </li><br>
+          <li><span style="color: tomato;">< title >< /title ></span>, adalah tag yang dugunakan untuk membuat judul website yang dimunculkan pada title browser. </li><br>
+          <li><span style="color: tomato;">< body >< /body ></span>, merupakan tag yang menunjukkan bagian utama dari website. Semua yang akan ditampilkan pada website dan halaman browser ditulis dan diletakkan di tag ini.</li><br></p>
+        </ul>
         
       </div>
   </section>
@@ -187,6 +189,86 @@
             <p>Penulisan javascript ini dilakukan pada kode javascript yang sangat panjang. Javascript tersebut disimpan dalam file tersendiri dengan ekstensi ".js". File tersebut kemudian dipanggil dengan cara <b>< script src="namafile.js" >< /script>.</b><p>
         </div>
     </div>
+    <br><h4 style="color: tomato;">Mengenal dasar-dasar dalam Javascript</h4>
+    <ul class="content">
+      <li><span style="color: tomato;">Variabel</span> <br>
+          Variabel digunakan untuk menyimpan data berupa teks, angka, dan lainnya dimana nilai dari variabel dapat diubah-ubah. Aturan penulisan dalam variabel adalah sebagai berikut: <br>
+          1. Jangan memberikan nama variabel berupa kata-kata yang dapat menjadi kode javascript. Contohnya seperti <u>break, boolean, else, and, var, dan masih banyak lagi</u>. <br>
+          2. Tidak boleh diawali dengan angka atau simbol, penulisan variabel setidaknya diawali dengan huruf atau underscore. <br>
+          3. Variabel pada javascript bersifat <i>case-sensitive</i>, sehingga penulisan huruf besar dan kecil harus diperhatikan.
+      </li>
+      <li><span style="color: tomato;">Tipe Data</span> <br>
+        Pada javascript, tipe data bersifat seolah-olah menjadi objek. Sehingga setiap variabel pada javascript akan langsung memiliki method. javascript mengenal 3 tipe data dasar, yaitu <u>numbers, strings, dan boolean</u>. Selain itu, javascript juga mengenal tipe data <u>null dan undefined</u>. 
+      </li>
+      <li><span style="color: tomato;">Operator</span> <br>
+        Operator merupakan sebuah simbol atau kata yang digunakan untuk melakukan operasi terhadap satu atau lebih daya atau variabel untuk menghasilkan data baru. Variabel atau data baru yang diperoleh tersebut disebut dengan <b>operand</b>. Beberapa jenis operator adalah sebagai berikut: <br>
+        <div class="timeline">
+          <div class="item-edu">
+              <h4>Operator Aritmatika</h4>
+              <p>Operator ini digunakan dalam perhitungan data numerik. Beberapa bentuk operator ini adalah sebagai berikut: <br>
+              + : Penjumlahan <br>
+              - : Pengurangan <br>
+              * : Perkalian <br>
+              / : Pembagian <br>
+              % : Modulus (Sisa Hasil Bagi) <br>
+              ++ : Penjumlahan dengan 1 <br>
+              -- : Pengurangan 1</p>
+          </div>
+          <div class="item-edu">
+            <h4>Operator perbandingan</h4>
+            <p>Operator ini digunakan untuk membandingkan dua variabel atau data. Hasil perbandingan ini akan bernilai <b>true atau false</b>. Berikut adalah beberapa bentuk operator perbandingan: <br>
+            == : Sama dengan <br>
+            != : Tidak sama dengan <br>
+            > : Lebih dari <br>
+            < : Kurang dari <br>
+            >= : Lebih dari sama dengan <br>
+            <= : kurang dari sama dengan</p>
+          </div>
+          <div class="item-edu">
+            <h4>Operator Logika</h4>
+              <p>Operator ini digunakan untuk mengoperasikan data boolean. Hasil dari operator ini juga akan bernilai <b>true dan false</b>. Berikut adalah beberapa bentuk operator logika: <br>
+              && : Menghasilkan nilai <b>true</b> apabila kedua variabel bernilai true <br>
+              || : Menghasilkan nilai <b>true</b> apabila salah satu variabel bernilai true <br>
+              ! : Mengembalikan nilai <b>kebalikan atau bukan</b> dari kondisi variabel sekarang (is not)<p>
+          </div>
+          <div class="item-edu">
+            <h4>Operator Assignment</h4>
+              <p>Operator ini digunakan untuk memberikan nilai kepada suatu variabel menggunakan tanda sama dengan. Berikut adalah beberapa bentuk operator Assignment: <br>
+              = : Memberi nilai suatu variabel <br>
+              += : Menambah nilai suatu variabel <br>
+              -= : Mengurangi nilai suatu variabel <br>
+              *= : Mengalikan nilai suatu variabel
+              /= : Membagi nilai suatu variabel <br>
+              %= : Mendapatkan hasil (Modulus) bagi dari suatu variabel<p>
+          </div>
+          <div class="item-edu">
+            <h4>Operator Kondisi</h4>
+              <p>Operator ini digunakan untuk memberikan nilai pada suatu variabel berdasarkan kondisi yang ditentukan. Ditandai dengan penulisan <b>? ... : ....</b>. Apabila suatu kondisi yang dituliskan sebelum tanda tanya bernilai <b>true</b>, maka akan mengeluarkan nilai yang berada di sebelah kiri tanda titik dua(:). Sedangkan ketika menghasilkan nilai <b>false</b>, maka akan menghasilkan nilai yang berada di sebelah kanan tanda gtitik dua(:).<p>
+          </div>
+      </div>
+      <br>
+      </li>
+      <li><span style="color: tomato;">Function</span> <br>
+        Function merupakan blok program yang dapat digunakan secara berulang-ulang. Penggunaan function pada kode program hanya dengan pemanggilan nama functionnya saja. Function memungkinkan program untuk mengembalikan nilai <b>return</b> maupun tanpa dengan membalikan nilai. Penulisan function pada javascript adalah sebagai berikut: <br>
+        <b> function namafungsi(parameter1, parameter2) { <br>
+            pernyataan; <br>
+            return variabel; <br>
+        } </b>
+      </li> <br>
+      <li><span style="color: tomato;">Event</span> <br>
+        Event merupakan suatu tindakan yang dilakukan terhadap suatu elemen HTML. Ada berbagai macam event, sebagai berikut: <br>
+        onblur : ketika suatu elemen tidak fokus <br>
+        onclick : ketika suatu elemen diklik <br>
+        ondblclick : Ketika suatu elemen didouble klik <br>
+        onkeydown : Ketika tomboh huruf di keyboard ditekan <br>
+        onkeyup : ketika tombol keyboard dilepas <br>
+        onkeypress : Ketika tombol keyboard ditekan <br>
+        onload : Ketika dokumen diload <br>
+        onselect : Ketika elemen dipilih <br>
+        onsubmit : Ketika data form dikirim <br>
+        dan masih banyak lagi.
+      </li>
+    </ul>
     </div>
   </section>
 
